@@ -1,0 +1,28 @@
+{
+  "name": "locationwheater",
+  "version": "1.0.0",
+  "description": "Project to implements an user dialog to ask for the weather on the days that will be in a certain place",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroBSanchez/locationWheater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroBSanchez/locationWheater/issues"
+  },
+  "homepage": "https://github.com/PedroBSanchez/locationWheater#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  }
+}
